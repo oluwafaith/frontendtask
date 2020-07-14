@@ -90,7 +90,7 @@ div.background {
     background-size: cover;
     width: 100%;
     height:500px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 25px;
     transform: translateY(-1px);
     margin-bottom: 100px;
@@ -159,7 +159,7 @@ div.background {
 
 .box{
     /* margin-top: 10px; */
-    background: ghostwhite;
+    background: whitesmoke;
     height: 850px;
     width: 100%;
    
@@ -168,10 +168,24 @@ div.background {
  .box1{
     /* margin-top: 10px; */
     background: white;
-    height: 450px;
+    height: 2050px;
     width: 100%;
    
  } 
+ .box2{
+     /* margin-top: 1000px; */
+    background: whitesmoke;
+    height: 1100px;
+    width: 100%; 
+   
+ } 
+ .box3{
+  margin-top: 280px;
+ background: black;
+ height: 450px;
+ width: 100%; 
+
+} 
 
  div.background2 {
     background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594561794/Screenshot_58.png);
@@ -179,7 +193,7 @@ div.background {
     background-size: cover;
     width: 100%;
     height:300px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 25px;
     transform: translateY(250px);
     margin-bottom: 100px;
@@ -247,7 +261,7 @@ div.background3 {
     background-size: cover;
     width: 100%;
     height:400px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 25px;
     transform: translateY(250px);
     margin-bottom: 100px;
@@ -284,30 +298,30 @@ div.background3 {
 
   div.transbox3 th,td{
       text-align: center;
-      border: 0.1px solid black;
+      border: 0.1px solid white;
       padding: 7px;
   }
-  th:first-of-type {
+ div.transbox3 th:first-of-type {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     color: black;
     
   }
-  th:nth-of-type(even) {
+ div.transbox3 th:nth-of-type(even) {
     color: black;
     padding-left: -2px;
   }
-  th:last-of-type {
+  div.transbox3 th:last-of-type {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color:black;
     color: white;
    
   }
-  td:last-of-type td:first-of-type {
+ div.transbox3 td:last-of-type td:first-of-type {
     border-bottom-left-radius: 10px;
   }
-  td:last-of-type td:last-of-type {
+ div.transbox3 td:last-of-type td:last-of-type {
     border-bottom-right-radius: 10px;
   }
 
@@ -351,15 +365,362 @@ div.background3 {
 
 
   div.background4 {
-    background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594581374/Screenshot_60.png);
+    background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594644688/Screenshot_64.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height:400px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 25px;
     transform: translateY(250px);
     margin-bottom: 100px;
   }
   
+  div.transbox4 {
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: -200px;
+    background-color: #ffffff;
+    border: 1px solid white;
+    opacity: 0.9;
+    height: 600px;
+  }
 
+  div.transbox4 h3{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: black;
+  margin-left: 430px;
+  margin-bottom: 40px;
+  }
+  div.transbox4 table{
+    width: 100%;
+    border-collapse: separate;
+    color: black;
+
+  }
+  div.transbox4 th{
+    text-align: left;
+    border: 0.1px whitesmoke;
+    padding: 7px;
+    background: whitesmoke;
+
+}
+div.transbox4 img{
+  float: left;
+  margin-right: 8px;
+}
+
+div.transbox4 th:first-of-type {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: black;
+  padding-right: 10px;
+}
+
+div.transbox4 th:last-of-type {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: black;
+  
+}
+/* div.transbox4 p{
+  font-size: 10px;
+  font-weight: bold;
+} */
+div.transbox4 #table2 p{
+font-size: 10px;
+font-weight: bold;
+text-align: left;
+font-family: sans-serif;
+
+}
+div.transbox4 #table2 th{
+font-size: 10px;
+font-weight: bold;
+
+}
+div.transbox4 #table2 img{
+  float: left;
+  margin-right: 200px;
+}
+div.transbox4 #table3 img{
+  float: left;
+  margin-right: 10px;
+  }
+
+  div.transbox4 #table3 p{
+    font-size: 10px;
+    font-weight: bold;
+    text-align: left;
+    font-family: sans-serif;
+  transform: translateX(110px);
+    
+    }
+
+    div.background5 {
+      background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594679433/Screenshot_73.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height:550px;
+      border: 2px solid white;
+      border-radius: 25px;
+      transform: translateY(1220px);
+      margin-bottom: 100px;
+    }
+    div.transbox5 {
+      margin-right: 80px;
+      margin-top: 40px;
+      margin-left: 60px;
+      margin-bottom: -200px;
+      background-color: #ffffff;
+      border: 1px solid white;
+      opacity: 0.9;
+      height: 200px;
+    }
+    div.transbox5 h3{
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: 20px;
+      font-family: sans-serif;
+      color: black;
+    margin-left: 430px;
+    margin-bottom: 40px;
+    }
+
+    div.transbox5 table #table4{
+      width: 70%;
+      border-collapse: separate;
+      border-spacing: 0;
+      margin-left: 140px;
+      margin-bottom: 45px;
+      
+    }
+
+    div.transbox5 #table4 img{
+      float: left;
+       margin-right: 80px; 
+       margin-bottom: 20px;
+     } 
+     div.transbox5 td{
+      text-align: left;
+      border: 1px solid white;
+      padding: 7px;
+      color: black;
+      font-size: 11px;
+      font-weight: bold;
+      font-family: sans-serif;
+  } 
+
+  div.background6 {
+    background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594710747/Screenshot_79.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:450px;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    transform: translateY(270px);
+    margin-bottom: 100px;
+  }
+  div.transbox6 {
+    margin-right: 80px;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-bottom: -200px;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    opacity: 0.9;
+    height: 400px;
+  }
+
+  div.transbox6 h3{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: black;
+  margin-left: 305px;
+  margin-bottom: 40px;
+  }
+
+  div.transbox6 table {
+  
+    width: 75%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-left: 140px;
+    padding-bottom: 15px;
+   border-radius: 15px;
+  }
+
+  div.transbox6 #table5 td{
+    text-align: left;
+    padding: 4px;
+    padding-left: 15px;
+    padding-bottom: 12px;
+    background: white;
+    border: 2px solid white;
+   color: black;
+   border-radius: 15px;
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+div.transbox6 img{
+  vertical-align: right;
+  transform: translateX(400px);
+}
+
+
+div.background7 {
+  background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594712966/Screenshot_83.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height:450px;
+  border: 2px solid black;
+  border-radius: 25px;
+  transform: translateY(270px);
+  margin-bottom: 100px;
+}
+div.transbox7 {
+  margin-right: 80px;
+  margin-top: 15px;
+  margin-left: 60px;
+  margin-bottom: -200px;
+  background-color: white;
+  border: 1px solid white;
+  opacity: 0.9;
+  height: 400px;
+}
+div.transbox7 h3{
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: sans-serif;
+  color: black;
+margin-left: 435px;
+margin-bottom: 40px;
+}
+div.transbox7 h4{
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 70px;
+  font-family: sans-serif;
+  color: black;
+margin-left: 45px;
+margin-bottom: 20px;
+}
+ul {
+  list-style-image: url('https://res.cloudinary.com/dhtxiw89g/image/upload/v1594714295/Screenshot_85.png' );
+  color: black;
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: bold;
+  line-height: 50px; 
+}
+div.transbox8{
+  margin-right: 20px;
+  margin-top: 15px;
+  margin-left: 760px;
+  margin-bottom: -200px;
+  transform: translateY(-240px);
+  background-color: black;
+  border: 1px solid black;
+  /* opacity: 0.9; */
+  height: 200px;
+  width: 250px;
+  border-radius: 15px;
+}
+
+div.transbox8 h4{
+  color: white;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: 55px;
+}
+div.transbox8 h5{
+color: white;
+font-size: 12px;
+margin-left: 70px;
+margin-top: 50px;
+line-height: 5px;
+
+}
+div.transbox8 p{
+  color: white;
+  font-size: 10px;
+  margin-left: 30px;
+}
+div.transbox8 button{
+  background: rgb(245, 76, 15);
+  margin-left: 65px;
+  padding-left: 35px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 35px;
+  border-radius: 10px;
+  border: 1px solid rgb(245, 76, 15);
+  color: white;
+}
+
+div.background9 {
+  background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594732230/Screenshot_89.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height:430px;
+  border: 2px solid black;
+  border-radius: 25px;
+  transform: translateY(10px);
+  margin-bottom: 100px;
+}
+div.transbox9 {
+  margin-right: 80px;
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-bottom: -200px;
+  background-color: black;
+  border: 1px solid black;
+  opacity: 0.7;
+  height: 400px;
+}
+div.transbox9 h3{
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 80px;
+  font-family: sans-serif;
+  color: white;
+margin-left: 60px;
+margin-bottom: 40px;
+}
+div.transbox9 p{
+  font-weight: bold;
+  font-size: 12px;
+  /* margin-top: 60px; */
+  font-family: sans-serif;
+  color: white;
+margin-left: 60px;
+/* margin-bottom: 40px; */
+}
+div.transbox9 #email{
+  margin-left: 60px;
+  border-radius: 7px;
+  padding-left: 20px;
+  padding-right: 100px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: 1px solid grey;
+  background: gray;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+div.transbox9 img[src="https://res.cloudinary.com/dhtxiw89g/image/upload/v1594753488/Screenshot_90.png"]{
+  transform: translateY(-250px);
+  margin-left: 770px
+}
