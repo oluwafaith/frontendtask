@@ -853,11 +853,23 @@ div.background3 {
   margin-left: 430px;
   margin-bottom: 40px;
   }
+  div .blackline{
+border-left: 1px solid black;
+  }
+  div.thickline{
+    text-align: left;
+    border-left: 5px solid black;
+    
+    transform: translateX(-3px);
+  }
+
   div.transbox4 table{
     width: 100%;
     border-collapse: separate;
     color: black;
     border-spacing: 0.1px;
+    margin-left: 20px;
+  
   }
   div.transbox4 th{
     text-align: left;
@@ -868,7 +880,9 @@ div.background3 {
     padding-top: 7px;
     background: whitesmoke;
 
+
 }
+
 div.transbox4 img{
   float: left;
   margin-right: 8px;
@@ -879,12 +893,31 @@ div.transbox4 th:first-of-type {
   border-bottom-left-radius: 10px;
   color: black;
   padding-right: 10px;
+  width: 25%;
+  
+}
+div.transbox4 th:nth-child(2) {
+  /* border-top-left-radius: 10px; */
+  /* border-bottom-left-radius: 10px; */
+  color: black;
+  padding-right: 10px;
+  width: 25%;
+  
+}
+div.transbox4 th:nth-child(3) {
+  /* border-top-left-radius: 10px; */
+  /* border-bottom-left-radius: 10px; */
+  color: black;
+  padding-right: 10px;
+  width: 25%;
+  
 }
 
 div.transbox4 th:last-of-type {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   color: black;
+  width: 25%;
   
 }
 /* div.transbox4 p{
@@ -905,11 +938,11 @@ font-weight: bold;
 }
 div.transbox4 #table2 img{
   float: left;
-  margin-right: 200px;
+  margin-right: 180px;
 }
 div.transbox4 #table3 img{
   float: left;
-  margin-right: 10px;
+  margin-right: 0;
   }
 
   div.transbox4 #table3 p{
@@ -977,7 +1010,7 @@ div.transbox4 #table3 img{
       font-family: sans-serif;
   } 
 
-  /* masters */
+  /* faq */
   div.background6 {
     background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594710747/Screenshot_79.png);
     background-repeat: no-repeat;
@@ -1038,7 +1071,7 @@ div.transbox6 img{
   transform: translateX(400px);
 }
 
-/* faq */
+/* course fee*/
 div.background7 {
   background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594712966/Screenshot_83.png);
   background-repeat: no-repeat;
@@ -1108,6 +1141,7 @@ div.transbox8 h4{
 }
 div.transbox8 h5{
 color: white;
+text-decoration: line-through;
 font-size: 12px;
 margin-left: 70px;
 margin-top: 50px;
@@ -1131,7 +1165,7 @@ div.transbox8 button{
   color: white;
 }
 
-/* course fee */
+/* request */
 div.background9 {
   background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594732230/Screenshot_89.png);
   background-repeat: no-repeat;
@@ -1186,7 +1220,7 @@ div.transbox9 img[src="https://res.cloudinary.com/dhtxiw89g/image/upload/v159475
   margin-left: 770px;
 }
 
-/* request listing */
+/* projects*/
 div.background10 {
   background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594755041/Screenshot_92.png);
   background-repeat: no-repeat;
@@ -1259,6 +1293,16 @@ div.transbox10 #pre1{
 margin-left: 40px;
 }
 
+div.transbox10 #prev{
+width: 2px;
+height: 2px;
+margin-left:100px ;
+transform: translateY(-1000px);
+}
+div.transbox10 #next{
+width: 2px;
+height: 20px;
+}
 div.transbox10a{
   margin-right: 20px;
   margin-top: 15px;
