@@ -226,15 +226,16 @@ div.background {
  .box6{
   margin-top: 20px;
  background: white;
- height: 150px;
+ height: 450px;
  width: 100%; 
 
 } 
 /* about */
  div.background2 {
-    background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594561794/Screenshot_58.png);
+    /* background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594561794/Screenshot_58.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background: white;
     width: 100%;
     height:300px;
     border: 2px solid white;
@@ -242,9 +243,17 @@ div.background {
     transform: translateY(250px);
     margin-bottom: 100px;
   }
+  div.background2 h1{
+    color:black;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 70px;
+    margin-right: 180px;
+    font-family: sans-serif;
+  }
   div.transbox2 {
     margin-right: 80px;
-    margin-top: 80px;
+    margin-top: -130px;
     margin-left: 60px;
     margin-bottom: -200px;
     background-color: #ffffff;
@@ -492,20 +501,26 @@ div.background {
 
 /* experience */
 div.background3 {
-    background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594581374/Screenshot_60.png);
+    /* background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594581374/Screenshot_60.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background: white;
     width: 100%;
     height:400px;
     border: 2px solid white;
     border-radius: 25px;
     transform: translateY(250px);
     margin-bottom: 100px;
+  } 
+  div.background3 h1{
+    color:black;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
   }
-
   div.transbox3 {
     margin-right: 80px;
-    margin-top: 60px;
+    margin-top: -150px;
     margin-left: 60px;
     margin-bottom: -200px;
     background-color: #ffffff;
@@ -517,7 +532,7 @@ div.background3 {
   div.transbox3 h3{
     font-weight: bold;
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
     font-family: sans-serif;
     color: black;
   margin-left: 430px;
@@ -598,7 +613,7 @@ div.background3 {
       transform-origin: 280% -380% 0;
       margin-left: 100px;
   }
-  @media(max-width:480px){
+  /* @media(max-width:480px){
     div.transbox3 img[src="https://res.cloudinary.com/dhtxiw89g/image/upload/v1594582055/Group_467_2x.png"] {
       display: none;
 
@@ -818,13 +833,14 @@ div.background3 {
     }
   }
  
-  
+   */
 
 /* session*/
   div.background4 {
-    background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594644688/Screenshot_64.png);
+    /* background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594644688/Screenshot_64.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background: white;
     width: 100%;
     height:400px;
     border: 2px solid white;
@@ -832,10 +848,16 @@ div.background3 {
     transform: translateY(250px);
     margin-bottom: 100px;
   }
+  div.background4 h1{
+    color:black;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+  }
   
   div.transbox4 {
     margin-right: 80px;
-    margin-top: 30px;
+    margin-top: -150px;
     margin-left: 60px;
     margin-bottom: -200px;
     background-color: #ffffff;
@@ -847,7 +869,7 @@ div.background3 {
   div.transbox4 h3{
     font-weight: bold;
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
     font-family: sans-serif;
     color: black;
   margin-left: 430px;
@@ -956,9 +978,10 @@ div.transbox4 #table3 img{
 
     /* masters */
     div.background5 {
-      background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594679433/Screenshot_73.png);
+      /* background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594679433/Screenshot_73.png);
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: cover; */
+      background: white;
       width: 100%;
       height:550px;
       border: 2px solid white;
@@ -966,9 +989,15 @@ div.transbox4 #table3 img{
       transform: translateY(1220px);
       margin-bottom: 100px;
     }
+    div.background5 h1{
+      color:black;
+      display: flex;
+      justify-content: center;
+      font-size: 80px;
+    }
     div.transbox5 {
       margin-right: 80px;
-      margin-top: 40px;
+      margin-top: -160px;
       margin-left: 60px;
       margin-bottom: -200px;
       background-color: #ffffff;
@@ -979,10 +1008,10 @@ div.transbox4 #table3 img{
     div.transbox5 h3{
       font-weight: bold;
       font-size: 20px;
-      margin-top: 20px;
+      margin-top: 40px;
       font-family: sans-serif;
       color: black;
-    margin-left: 430px;
+    margin-left: 470px;
     margin-bottom: 40px;
     }
 
@@ -1012,9 +1041,9 @@ div.transbox4 #table3 img{
 
   /* faq */
   div.background6 {
-    background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594710747/Screenshot_79.png);
+    /* background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594710747/Screenshot_79.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     width: 100%;
     height:450px;
     border: 2px solid whitesmoke;
@@ -1022,9 +1051,15 @@ div.transbox4 #table3 img{
     transform: translateY(270px);
     margin-bottom: 100px;
   }
+  div.background6 h1{
+    color:black;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+  }
   div.transbox6 {
     margin-right: 80px;
-    margin-top: 40px;
+    margin-top: -150px;
     margin-left: 60px;
     margin-bottom: -200px;
     background-color: whitesmoke;
@@ -1034,12 +1069,13 @@ div.transbox4 #table3 img{
   }
 
   div.transbox6 h3{
+    display: flex;
+    justify-content: center;
     font-weight: bold;
     font-size: 20px;
     margin-top: 20px;
     font-family: sans-serif;
     color: black;
-  margin-left: 305px;
   margin-bottom: 40px;
   }
 
@@ -1073,9 +1109,10 @@ div.transbox6 img{
 
 /* course fee*/
 div.background7 {
-  background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594712966/Screenshot_83.png);
+  /* background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594712966/Screenshot_83.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background: white;
   width: 100%;
   height:450px;
   border: 2px solid white;
@@ -1083,9 +1120,15 @@ div.background7 {
   transform: translateY(270px);
   margin-bottom: 100px;
 }
+div.background7 h1{
+  color:black;
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+}
 div.transbox7 {
   margin-right: 80px;
-  margin-top: 15px;
+  margin-top: -150px;
   margin-left: 60px;
   margin-bottom: -200px;
   background-color: white;
@@ -1096,7 +1139,7 @@ div.transbox7 {
 div.transbox7 h3{
   font-weight: bold;
   font-size: 20px;
-  margin-top: 20px;
+  margin-top: 30px;
   font-family: sans-serif;
   color: black;
 margin-left: 435px;
@@ -1222,9 +1265,10 @@ div.transbox9 img[src="https://res.cloudinary.com/dhtxiw89g/image/upload/v159475
 
 /* projects*/
 div.background10 {
-  background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594755041/Screenshot_92.png);
+  /* background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594755041/Screenshot_92.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background: white;
   width: 100%;
   height:450px;
   border: 2px solid white;
@@ -1232,9 +1276,15 @@ div.background10 {
   transform: translateY(-230px);
   margin-bottom: 100px;
 }
+div.background10 h1{
+  color:black;
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+}
 div.transbox10 {
   margin-right: 80px;
-  margin-top: 20px;
+  margin-top: -160px;
   margin-left: 60px;
   margin-bottom: -200px;
   background-color: white;
@@ -1333,33 +1383,41 @@ div.transbox10b{
 
 /* schedule */
 div.background11 {
-  background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594760685/Screenshot_97.png);
+  /* background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594760685/Screenshot_97.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background: whitesmoke;
   width: 100%;
-  height:450px;
+  height:400px;
   border: 2px solid whitesmoke;
   border-radius: 25px;
   transform: translateY(-1px);
   margin-bottom: 100px;
 }
+div.background11 h1{
+  color:black;
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+}
 div.transbox11 {
   margin-right: 80px;
-  margin-top: 20px;
+  margin-top: -150px;
   margin-left: 60px;
   margin-bottom: -200px;
   background-color: whitesmoke;
   border: 1px solid whitesmoke;
   opacity: 0.9;
-  height: 400px;
+  height: 350px;
 }
 div.transbox11 h3{
   font-weight: bold;
   font-size: 20px;
-  margin-top: 60px;
+  margin-top: 30px;
   font-family: sans-serif;
   color: black;
-margin-left: 380px;
+  display: flex;
+  justify-content: center;
 margin-bottom: 40px;
 }
 div.transbox11 pre{
