@@ -226,7 +226,7 @@ div.background {
  .box6{
   margin-top: 20px;
  background: white;
- height: 450px;
+ height: 150px;
  width: 100%; 
 
 } 
@@ -979,9 +979,10 @@ div.transbox4 th:last-of-type {
 } */
 div.transbox4 #table2 p{
 font-size: 10px;
-font-weight: bold;
+/* font-weight: bold; */
 text-align: left;
 font-family: sans-serif;
+/* line-height: 14px; */
 
 }
 div.transbox4 #table2 th{
@@ -1000,7 +1001,8 @@ div.transbox4 #table3 img{
 
   div.transbox4 #table3 p{
     font-size: 10px;
-    font-weight: bold;
+    /* line-height: 14px; */
+    /* font-weight: bold; */
     text-align: left;
     font-family: sans-serif;
   transform: translateX(110px);
@@ -1039,14 +1041,17 @@ div.transbox4 #table3 img{
       }
       div.transbox4 #table2 p{
         font-size: 6px;
+        line-height: 8px;
         
       }
       div.transbox4 #table3 p{
         font-size: 6px;
         transform: translateX(2px);
+        line-height: 8px;
       }
       div.transbox4 #table4 p{
         font-size: 6px;
+        line-height: 8px;
       
       }
     }
@@ -1083,15 +1088,19 @@ div.transbox4 #table3 img{
       }
       div.transbox4 #table2 p{
         font-size: 6px;
-        
+        line-height: 8px;
+        font-weight: bold;
       }
       div.transbox4 #table3 p{
         font-size: 6px;
         transform: translateX(2px);
+        line-height: 8px;
+        font-weight: bold;
       }
       div.transbox4 #table4 p{
         font-size: 6px;
-      
+        line-height: 8px;
+      font-weight: bold;
       }
     }
     @media(min-width:768px){
@@ -1132,6 +1141,7 @@ div.transbox4 #table3 img{
       div.transbox4 #table3 p{
         font-size: 8px;
         transform: translateX(10px);
+        
       }
       div.transbox4 #table4 p{
         font-size: 8px;
@@ -2090,16 +2100,19 @@ div.transbox10 #pre1{
 margin-left: 40px;
 }
 
-/* div.transbox10 img #prev{
-width: 2px;
-height: 2px;
-margin-left:100px ;
-transform: translateY(-1000px);
+div.transbox10 img[src="https://res.cloudinary.com/dhtxiw89g/image/upload/v1595094729/Screenshot_2020-07-18_at_18.40.57.png"]{
+width: 45px;
+height: 50px;
+margin-left:700px ;
+transform: translateY(300px);
+
 }
-div.transbox10 img #next{
-width: 2px;
-height: 20px;
-} */
+div.transbox10 img[src="https://res.cloudinary.com/dhtxiw89g/image/upload/v1595094749/Screenshot_2020-07-18_at_18.47.22.png"]{
+width: 45px;
+height: 40px;
+margin-left:970px;
+transform: translateY(-200px);
+}
 div.transbox10a{
   margin-right: 20px;
   margin-top: 15px;
@@ -2151,12 +2164,47 @@ div.transbox10b{
     margin-left: 170px;
     margin-top: 100px;
   }
-  /* div.transbox10a{
-    display: none;
+  div.transbox10 img[src="https://res.cloudinary.com/dhtxiw89g/image/upload/v1595094729/Screenshot_2020-07-18_at_18.40.57.png"]{
+    width: 45px;
+    height: 50px;
+    margin-left:510px ;
+    transform: translateY(-190px);
+    
+    }
+    div.transbox10 img[src="https://res.cloudinary.com/dhtxiw89g/image/upload/v1595094749/Screenshot_2020-07-18_at_18.47.22.png"]{
+    width: 45px;
+    height: 40px;
+    margin-left:740px;
+    transform: translateY(-235px);
+    }
+    
+  div.transbox10a{
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-left: 500px;
+    margin-bottom: -200px;
+    transform: translateY(-350px);
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    /* opacity: 0.9; */
+    height: 200px;
+    width: 280px;
+    border-radius: 15px;
   }
   div.transbox10b{
-    display:none;
-  } */
+    margin-right: 20px;
+  margin-top: 15px;
+  margin-left: 560px;
+  margin-bottom: -200px;
+  transform: translateY(-290px);
+  background-color: white;
+  border: 1px solid white;
+  /* opacity: 0.9; */
+  height: 240px;
+  width: 160px;
+  border-radius: 15px;
+  }
+ 
 }
 @media(min-width:768px){
   div.background10 h1{
@@ -2167,25 +2215,40 @@ div.transbox10b{
     margin-left: 260px;
     margin-top: 70px;
   }
+  
+  div.transbox10 img[src="https://res.cloudinary.com/dhtxiw89g/image/upload/v1595094729/Screenshot_2020-07-18_at_18.40.57.png"]{
+    width: 45px;
+    height: 50px;
+    margin-left:510px ;
+    transform: translateY(-190px);
+    
+    }
+    div.transbox10 img[src="https://res.cloudinary.com/dhtxiw89g/image/upload/v1595094749/Screenshot_2020-07-18_at_18.47.22.png"]{
+    width: 45px;
+    height: 40px;
+    margin-left:740px;
+    transform: translateY(-235px);
+    }
+    
   div.transbox10a{
     margin-right: 20px;
-  margin-top: 15px;
-  margin-left: 700px;
-  margin-bottom: -200px;
-  transform: translateY(-240px);
-  background-color: whitesmoke;
-  border: 1px solid whitesmoke;
-  /* opacity: 0.9; */
-  height: 200px;
-  width: 280px;
-  border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 500px;
+    margin-bottom: -200px;
+    transform: translateY(-350px);
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    /* opacity: 0.9; */
+    height: 200px;
+    width: 280px;
+    border-radius: 15px;
   }
   div.transbox10b{
     margin-right: 20px;
   margin-top: 15px;
-  margin-left: 760px;
+  margin-left: 560px;
   margin-bottom: -200px;
-  transform: translateY(-200px);
+  transform: translateY(-290px);
   background-color: white;
   border: 1px solid white;
   /* opacity: 0.9; */
@@ -2203,6 +2266,9 @@ div.transbox10b{
     font-weight: bold;
     line-height: 15px; 
   }
+  div.transbox10 h3{
+    margin-left: 370px;
+  }
   div.transbox10 p{
     font-weight: bold;
     font-size: 12px;
@@ -2225,34 +2291,38 @@ div.transbox10b{
     padding-bottom: 10px;
   margin-left: 40px;
   }
-  
-  div.transbox10 #prev{
-  width: 2px;
-  height: 2px;
-  margin-left:100px ;
-  transform: translateY(-1000px);
-  }
-  div.transbox10 #next{
-  width: 2px;
-  height: 20px;
-  }
+
+ div.transbox10 img[src="https://res.cloudinary.com/dhtxiw89g/image/upload/v1595094729/Screenshot_2020-07-18_at_18.40.57.png"]{
+width: 45px;
+height: 50px;
+margin-left:500px ;
+margin-top: 65px;
+transform: translateY(-150px);
+
+}
+div.transbox10 img[src="https://res.cloudinary.com/dhtxiw89g/image/upload/v1595094749/Screenshot_2020-07-18_at_18.47.22.png"]{
+width: 45px;
+height: 40px;
+margin-left:710px;
+transform: translateY(-195px);
+}
   div.transbox10a{
     margin-right: 20px;
-    margin-top: 15px;
-    margin-left: 700px;
+    margin-top: -40px;
+    margin-left: 500px;
     margin-bottom: -200px;
     transform: translateY(-240px);
     background-color: whitesmoke;
     border: 1px solid whitesmoke;
     /* opacity: 0.9; */
     height: 200px;
-    width: 280px;
+    width: 250px;
     border-radius: 15px;
   }
   div.transbox10b{
     margin-right: 20px;
     margin-top: 15px;
-    margin-left: 760px;
+    margin-left: 543px;
     margin-bottom: -200px;
     transform: translateY(-200px);
     background-color: white;
@@ -2264,10 +2334,54 @@ div.transbox10b{
   } 
 }
 @media(min-width:1200px){
-  div.transbox10 h3{
-    margin-left: 480px;
-    font-size: 20px;
+  div.background10 {
+    /* background: url(https://res.cloudinary.com/dhtxiw89g/image/upload/v1594755041/Screenshot_92.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background: white;
+    width: 100%;
+    height:450px;
+    border: 2px solid white;
+    border-radius: 25px;
+    transform: translateY(-230px);
+    margin-bottom: 100px;
   }
+  div.background10 h1{
+    color:black;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+  }
+  div.transbox10 {
+    margin-right: 80px;
+    margin-top: -160px;
+    margin-left: 60px;
+    margin-bottom: -200px;
+    background-color: white;
+    border: 1px solid white;
+    opacity: 0.9;
+    height: 400px;
+  }
+  div.transbox10 h3{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 40px;
+    font-family: sans-serif;
+    color: black;
+  margin-left: 420px;
+  margin-bottom: 40px;
+  }
+  div.transbox10 h4{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 40px;
+    font-family: sans-serif;
+    color: black;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  
+  }
+  /* projects */
   div.transbox10 ul {
     list-style-image: url('https://res.cloudinary.com/dhtxiw89g/image/upload/v1594714295/Screenshot_85.png' );
     color: black;
@@ -2299,22 +2413,25 @@ div.transbox10b{
   margin-left: 40px;
   }
   
-  div.transbox10 #prev{
-  width: 2px;
-  height: 2px;
-  margin-left:100px ;
-  transform: translateY(-1000px);
+  div.transbox10 img[src="https://res.cloudinary.com/dhtxiw89g/image/upload/v1595094729/Screenshot_2020-07-18_at_18.40.57.png"]{
+  width: 45px;
+  height: 50px;
+  margin-left:700px ;
+  transform: translateY(-150px);
+  
   }
-  div.transbox10 #next{
-  width: 2px;
-  height: 20px;
+  div.transbox10 img[src="https://res.cloudinary.com/dhtxiw89g/image/upload/v1595094749/Screenshot_2020-07-18_at_18.47.22.png"]{
+  width: 45px;
+  height: 40px;
+  margin-left:950px;
+  transform: translateY(-200px);
   }
   div.transbox10a{
     margin-right: 20px;
-    margin-top: 15px;
+    margin-top: -40px;
     margin-left: 700px;
     margin-bottom: -200px;
-    transform: translateY(-240px);
+    transform: translateY(-280px);
     background-color: whitesmoke;
     border: 1px solid whitesmoke;
     /* opacity: 0.9; */
@@ -2327,7 +2444,7 @@ div.transbox10b{
     margin-top: 15px;
     margin-left: 760px;
     margin-bottom: -200px;
-    transform: translateY(-200px);
+    transform: translateY(-220px);
     background-color: white;
     border: 1px solid white;
     /* opacity: 0.9; */
@@ -2675,7 +2792,7 @@ transform: translateY(-200px);
   }
 }
 
-
+/*footer*/
 #pre4{
   color: black;
   font-size: 15px;
