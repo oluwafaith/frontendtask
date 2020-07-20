@@ -763,8 +763,6 @@ div.background3 {
     font-size: 60px;
   }
     div.transbox3 p{
-      /* display: flex;
-      justify-content: flex-end; */
       transform: translateX(300px);
       font-size: 12px;
     
@@ -2092,16 +2090,16 @@ div.transbox10 #pre1{
 margin-left: 40px;
 }
 
-div.transbox10 #prev{
+/* div.transbox10 img #prev{
 width: 2px;
 height: 2px;
 margin-left:100px ;
 transform: translateY(-1000px);
 }
-div.transbox10 #next{
+div.transbox10 img #next{
 width: 2px;
 height: 20px;
-}
+} */
 div.transbox10a{
   margin-right: 20px;
   margin-top: 15px;
@@ -2266,6 +2264,10 @@ div.transbox10b{
   } 
 }
 @media(min-width:1200px){
+  div.transbox10 h3{
+    margin-left: 480px;
+    font-size: 20px;
+  }
   div.transbox10 ul {
     list-style-image: url('https://res.cloudinary.com/dhtxiw89g/image/upload/v1594714295/Screenshot_85.png' );
     color: black;
